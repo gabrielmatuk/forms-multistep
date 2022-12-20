@@ -69,7 +69,7 @@ const ReviewForm = ({ data, updateFieldHandler }) => {
           placeholder="Conte como foi a sua experiência com o produto..."
           required
           value={data.comment || ""}
-          onChange={(e) => updateFieldHandler("name", e.target.value)}
+          onChange={(e) => updateFieldHandler("comment", (e.target.value))}
         ></textarea>
       </div>
     </div>
